@@ -1,0 +1,46 @@
+.bisavo {
+  color: white;
+  background-color: rgb(82, 80, 80);
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+.avo {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  z-index: 1;
+}
+.pai {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(185, 185, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  z-index: 2;
+}
+.alvo {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(216, 214, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  z-index: 3;
+}
+.green {
+  background-color: green;
+}
