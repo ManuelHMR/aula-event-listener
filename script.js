@@ -120,7 +120,7 @@ function eventBubbling() {
     <button class="next" onclick="apresentarPOC3()">Próximo</button>
   </footer>`
 }
-function apresentarPOC2() {
+function apresentarPOC3() {
   mainRef.innerHTML = ''
   mainRef.innerHTML = `
   <h1>POC 3</h1>
